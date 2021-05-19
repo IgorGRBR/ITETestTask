@@ -1,0 +1,11 @@
+USE [ITETASK2]
+GO
+
+UPDATE dbo.DMS
+SET SORT=e.SORT
+FROM dbo.DMS d
+INNER JOIN dbo.TOV e
+ON d.KTOV = e.KTOV
+GO
+
+

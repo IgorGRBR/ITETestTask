@@ -1,0 +1,10 @@
+S:\ITETestTask\ITETask\bin\Debug\ITETask.exe.config
+S:\ITETestTask\ITETask\bin\Debug\ITETask.exe
+S:\ITETestTask\ITETask\bin\Debug\ITETask.pdb
+S:\ITETestTask\ITETask\obj\Debug\ITETask.csprojAssemblyReference.cache
+S:\ITETestTask\ITETask\obj\Debug\ITETask.MainForm.resources
+S:\ITETestTask\ITETask\obj\Debug\ITETask.Properties.Resources.resources
+S:\ITETestTask\ITETask\obj\Debug\ITETask.csproj.GenerateResource.cache
+S:\ITETestTask\ITETask\obj\Debug\ITETask.csproj.CoreCompileInputs.cache
+S:\ITETestTask\ITETask\obj\Debug\ITETask.exe
+S:\ITETestTask\ITETask\obj\Debug\ITETask.pdb

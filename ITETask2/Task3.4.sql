@@ -1,0 +1,19 @@
+USE [ITETASK2]
+GO
+
+INSERT INTO dbo.DMZ ("DDM", "NDM", "PR")
+--VALUES (GETDATE(), )
+SELECT GETDATE(), c.PRC + 1, IIF(a.PRC > b.PRC, 2, 1)
+FROM (
+	SELECT COUNT(d.PR) as PRC
+	FROM dbo.DMZ d
+	WHERE d.PR=1
+) a, (
+	SELECT COUNT(d.PR) as PRC
+	FROM dbo.DMZ d
+	WHERE d.PR=2
+) b, (
+	SELECT MAX(d.NDM) as PRC
+	FROM dbo.DMZ d
+) c
+GO
